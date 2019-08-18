@@ -2,9 +2,16 @@
     list-style: none;
     justify-content: space-between;
     display: flex;
-    margin-top: 180px;     
+    margin: 0px;
 }
 
 .col-child{
-    padding: 20px;
+    padding: 10px 20px;
+}
+
+.navbar-down{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+
 }

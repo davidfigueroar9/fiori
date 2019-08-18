@@ -1,18 +1,24 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import NavbarDonw from './components/NavbarDown';
-import Hero from './components/Hero';
-// import Categories from './components/Categories';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Home from './modules/Home';
+import Cart from './modules/Cart';
+import Account from './modules/Account';
+import Wishlist from './modules/Wishlist';
+import NavbarDown from './components/NavbarDown';
 
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Hero />
-      <NavbarDonw />
-    </div>
+    <Router>
+      <div>
+        <Route path="/" exact component={Home} />
+        <Route path="/cart/" component={Cart} />
+        <Route path="/account/" component={Account} />
+        <Route path="/wishlist/" component={Wishlist} />
+        <NavbarDown />
+      </div>
+    </Router>
   );
 }
 

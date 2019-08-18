@@ -1,18 +1,30 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import Icon from 'components/Icon';
 import './styles.css';
 
 const Navbar = () => (
   <div className="header">
     <div className="header-left">
-      <i className="material-icons">menu</i>
+      <Link to="/">
+        <Icon name="menu" />
+      </Link>
       <h2 className="header-left-text">FIORI</h2>
     </div>
     <div className="header-right">
-      <i className="material-icons header-right-icon">notifications_none</i>
-      <i className="material-icons">search</i>
-
+      <span className="header-right-icon">
+        <Link to="/">
+          <Icon name="search" />
+        </Link>
+      </span>
+      <span className="header-right-icon">
+        <Link to="/">
+          <Icon name="notification" />
+        </Link>
+      </span>
     </div>
   </div>
+
 
 );
 
