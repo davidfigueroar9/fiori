@@ -1,0 +1,10 @@
+.col-father {
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 180px;     
+}
+
+.col-child{
+    padding: 20px;
+}
