@@ -1,11 +1,15 @@
 import React from 'react';
 import './styles.css';
 
-const Hero = () => (
-  <div className="home-center">
-    <h3 className="text-center">New Arrivals</h3>
-    <span className="text-center-sub">Check out our fresh new stuff from Fiori, store!</span>
-    <button type="button" className="button-sub">SHOP NOW</button>
+const Hero = props => (
+  <div className="Hero" style={{ backgroundImage: `url(${props.image})` }}>
+    <div className="Hero-bg">
+      <div className="Hero-content">
+        <h3 className="Hero-title">{props.title}</h3>
+        <div className="Hero-description">{props.description}</div>
+        <div className="Hero-button">SHOP NOW </div>
+      </div>
+    </div>
   </div>
 );
 

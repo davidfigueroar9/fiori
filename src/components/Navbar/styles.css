@@ -1,7 +1,11 @@
 .header{
     display: flex;
     padding: 10px 20px;
-    justify-content: space-between;
+		justify-content: space-between;
+		position: fixed;
+		width: 100%;
+		top: 0px;
+		background: white;
 }
 .header-right-icon{
 		margin-left: 10px;

@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom';
 import Icon from 'components/Icon';
 import './styles.css';
 
-const Navbar = () => (
+const Navbar = props => (
   <div className="header">
     <div className="header-left">
       <Link to="/">
         <Icon name="menu" />
       </Link>
-      <h2 className="header-left-text">FIORI</h2>
+      <h2 className="header-left-text">{ props.title }</h2>
     </div>
     <div className="header-right">
       <span className="header-right-icon">
