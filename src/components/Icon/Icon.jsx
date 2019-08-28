@@ -8,6 +8,7 @@ import Home from 'resources/icons/house.svg';
 import Menu from 'resources/icons/menu.svg';
 import Search from 'resources/icons/search.svg';
 import Notification from 'resources/icons/notification.svg';
+import Next from 'resources/icons/next-1.svg';
 
 
 const Icon = ({ name }) => {
@@ -44,6 +45,11 @@ const Icon = ({ name }) => {
   if (name === 'notification') {
     return (
       <img width="20" height="20" src={Notification} alt="Notification" />
+    );
+  }
+  if (name === 'next-1') {
+    return (
+      <img width="20" height="20" src={Next} alt="Next" />
     );
   }
 

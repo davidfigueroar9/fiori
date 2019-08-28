@@ -1,7 +1,10 @@
 import React from 'react';
+import Navbar from 'components/Navbar';
 
 const Cart = () => (
-  <h2>Cart</h2>
+  <div className="home">
+    <Navbar title="Cart" />
+  </div>
 );
 
 export default Cart;

@@ -1,7 +1,10 @@
 import React from 'react';
+import Navbar from 'components/Navbar';
 
 const Wishlist = () => (
-  <h2>Wishlist</h2>
+  <div className="home">
+    <Navbar title="Whislist" />
+  </div>
 );
 
 export default Wishlist;
