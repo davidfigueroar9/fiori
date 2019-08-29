@@ -1,5 +1,5 @@
 .Hero{
-    
+
     height: 250px;
     background-color: pink;
     margin: 0px;
@@ -22,7 +22,7 @@
 }
 .Hero-title
     {
-        font-family: 'Noto Sans JP', sans-serif;
+        font-family: 'Roboto', sans-serif;
         color: white;
         text-shadow: 1px -5px 8px black;
         font-size: 30px;
@@ -30,17 +30,19 @@
     }
 
 .Hero-description{
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: white;
     text-shadow: -2px 5px 20px black;
     font-size: medium;
     margin-bottom: 20px
 }
-.Hero-button
+.Hero-button, .Hero-button a:hover, .Hero-button a:active, .Hero-button a:focus, .Hero-button a:visited
 {
+    font-family: 'Roboto', sans-serif;
     padding: 10px 15px;
     background-color: white;
     display: flex;
+    color: black;
     font-size: 12px;
     font-weight: bold;
     align-items: center;

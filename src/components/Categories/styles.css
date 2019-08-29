@@ -23,13 +23,15 @@
   margin-bottom: 10px;
 }
 .Categories-name{
+  font-family: 'Roboto', sans-serif;
   color: rgba(0,0,0,0.42);
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 5px;
 
 }
 
 .Categories-price{
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 700;
   color: #2b2b2b;
