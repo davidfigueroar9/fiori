@@ -1,6 +1,7 @@
 import React from 'react';
 import AccountHeader from 'components/AccountHeader';
 import AccountListOptions from 'components/AccountListOptions';
+import './styles.css';
 
 const Account = () => (
   <div className="Account">

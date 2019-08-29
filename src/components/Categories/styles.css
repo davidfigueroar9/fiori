@@ -1,0 +1,36 @@
+.Categories-container{
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.Categories-item{
+  width: calc(50% - 20px);
+  margin: 10px;
+
+}
+
+.Categories-image{
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  width: 100%;
+  height: 170px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.Categories-name{
+  color: rgba(0,0,0,0.42);
+  font-size: 20px;
+  margin-bottom: 5px;
+
+}
+
+.Categories-price{
+  font-size: 14px;
+  font-weight: 700;
+  color: #2b2b2b;
+}
