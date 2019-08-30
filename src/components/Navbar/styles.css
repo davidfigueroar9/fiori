@@ -24,9 +24,10 @@ align-items: center;
 
 .header-left-text{
 		margin-left: 10px;
-		font-family: 'Berkshire Swash', cursive;
-
-}
+		font-family: 'Roboto', sans-serif;
+		font-weight: bold;
+		font-size: 22px;
+	}
 
 
 
