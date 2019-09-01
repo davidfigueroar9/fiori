@@ -1,6 +1,6 @@
-body {
+body, #root {
   margin: 0;
-  font-family: 'Livvic', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 code {
