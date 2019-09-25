@@ -37,16 +37,18 @@ const db = {
       subcategories: [],
     },
     {
-      name: 'Children',
+      name: 'Youngs',
       image: 'https://www.minimoda.es/wp-content/uploads/2017/05/carolina-herrera-moda-infantil-primavera-3.jpg',
-      id: 3,
+      id: 4,
       subcategories: [],
     },
   ],
   wishlist: [],
   userdetails: {
-    username: 'David Figueroa',
-    info: 'developer',
+    username: 'Omar Díaz',
+    email: 'omarjdiazv@gmail.com',
+    image: 'https://scontent.faep8-1.fna.fbcdn.net/v/t1.0-9/69024535_2718960854780717_1058784338398674944_n.jpg?_nc_cat=101&_nc_oc=AQmlHq3rP2Fv5KlHX2pRaKuXdPit7pmNhbJWRhSlzfwdfq66gV7dEH9NeVEoOVQFldw&_nc_ht=scontent.faep8-1.fna&oh=6ef5a630b22f6ddb8754036693bbc27f&oe=5DF2B8B0',
+    info: 'Developer',
     avatar: 'url',
   },
 };

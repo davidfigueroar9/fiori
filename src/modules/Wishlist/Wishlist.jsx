@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Navbar from 'components/Navbar';
 import './styles.css';
 
-const Wishlist = () => (
-  <div className="Whislist">
-    <Navbar title="Whislist" />
-  </div>
-);
+class Wishlist extends Component {
+  state = {}
+
+  render() {
+    return (
+      <Navbar title="Wishlist" />
+    );
+  }
+}
 
 export default Wishlist;

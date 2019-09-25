@@ -14,7 +14,6 @@ const NavbarDown = () => (
       <li className="col-child">
         <Link to="/cart">
           <Icon name="shopping-cart" />
-
         </Link>
       </li>
       <li className="col-child">
