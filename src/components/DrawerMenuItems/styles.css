@@ -1,0 +1,10 @@
+.DrawerMenuItemsContainer{
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  align-items: center;
+}
+.DrawerMenuItems{
+  font-size: 15px;
+  font-weight: bold;
+}

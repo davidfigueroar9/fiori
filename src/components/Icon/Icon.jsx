@@ -9,6 +9,7 @@ import Menu from 'resources/icons/menu.svg';
 import Search from 'resources/icons/search.svg';
 import Notification from 'resources/icons/notification.svg';
 import Next from 'resources/icons/next-1.svg';
+import Cancel from 'resources/icons/cancel.svg';
 
 
 const Icon = ({ name }) => {
@@ -50,6 +51,11 @@ const Icon = ({ name }) => {
   if (name === 'next-1') {
     return (
       <img width="20" height="20" src={Next} alt="Next" />
+    );
+  }
+  if (name === 'cancel') {
+    return (
+      <img width="25" height="25" src={Cancel} alt="Cancel" />
     );
   }
 

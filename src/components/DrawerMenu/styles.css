@@ -1,0 +1,57 @@
+.DrawerMenu {
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: -100vh;
+	z-index: 1000;
+  transition: all 1s;
+}
+
+.DrawerMenuOptions {
+  border-right: solid 1px #403f3f61;
+  width: 80%;
+	height: 100%;
+  background-color: white;
+
+}
+.DrawerMenuItems{
+  color: black;
+}
+.DrawerCloseIcon{
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+}
+.DrawerMenuHeader{
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1px #403f3f61;
+}
+.DrawerMenuHeader-text-name{
+  font-size: 15px;
+  font-weight: 700;
+  color: #2b2b2b;
+  margin-bottom: 5px;
+}
+
+.DrawerMenuHeader-text-info{
+  color: rgba(0,0,0,0.42);
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+}
+.DrawerMenuHeader-profile-image{
+  width: 50px;
+  border-radius: 50%;
+  height: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.DrawerMenuOpen {
+	left: 0vh;
+}
+
+
